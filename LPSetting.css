@@ -26,8 +26,8 @@ button {
   display: flex;
   align-items: center;
   margin-left: 1rem;
-  margin-top: 1.19rem;
-  background-color: #fff;
+  padding-top: 1.19rem;
+  background-color: #f8fafb;
   border: none;
 }
 
@@ -36,24 +36,28 @@ button {
 }
 
 .setting-heading {
-  margin-top: 1.56rem;
+  margin-top: 1.69rem;
   margin-left: 2rem;
   font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
 }
 
-.prefrence {
+.prefrence, .account-setup , .company-setup {
   margin-left: 2rem;
-  margin-top: 3.75rem;
+  margin-top: 2.25rem;
+  margin-bottom:1.5rem;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
 }
 
-.prefrence-options {
+.prefrence-options, .account-options, .company-options {
   margin-left: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   cursor: pointer;
   font-size: 0.875rem;
 }
+
+
+
